@@ -1,0 +1,19 @@
+5.1. Can you explain the copy (cp ../temp-* .) command used above?
+
+cp is the command used to copy files
+../temp-* specifies the source files
+. specifies de destination which is the current directory we are in.
+It copies any files that start with "temp-" from the parent directory into the greends-fads-first-project
+
+
+5.2. Can you explain why, in this case, we did not have to do git init?
+
+when cloning a repository it automatically sets up a .git directory in the cloned folder. For this reason there is no need to run git init.
+
+
+
+5.3. Can you commit the files copied? What do you need to do? Execute the commands that are needed.
+
+MacBook-Air-de-Sofia-2:greends-fads-first-project sofiasemedo$ git add temp-data.cvs
+MacBook-Air-de-Sofia-2:greends-fads-first-project sofiasemedo$ git add temp-average.py
+MacBook-Air-de-Sofia-2:greends-fads-first-project sofiasemedo$ git add temp-doc.txt
