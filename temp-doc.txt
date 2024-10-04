@@ -17,3 +17,32 @@ when cloning a repository it automatically sets up a .git directory in the clone
 MacBook-Air-de-Sofia-2:greends-fads-first-project sofiasemedo$ git add temp-data.cvs
 MacBook-Air-de-Sofia-2:greends-fads-first-project sofiasemedo$ git add temp-average.py
 MacBook-Air-de-Sofia-2:greends-fads-first-project sofiasemedo$ git add temp-doc.txt
+
+
+
+MacBook-Air-de-Sofia-2:greends-fads-first-project sofiasemedo$ git commit * -m "initial commit"
+[main a7bf44a] initial commit
+ 2 files changed, 19 insertions(+)
+ create mode 100644 tem-average.py
+
+
+
+MacBook-Air-de-Sofia-2:greends-fads-first-project sofiasemedo$ git commit * -m "initial commit"
+[main a7bf44a] initial commit
+ 2 files changed, 19 insertions(+)
+ create mode 100644 tem-average.py
+MacBook-Air-de-Sofia-2:greends-fads-first-project sofiasemedo$ git push origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 1016 bytes | 338.00 KiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/sofsemedo/greends-fads-first-project
+   d8bdda6..a7bf44a  main -> main
+
+
+
+MacBook-Air-de-Sofia-2:greends-fads-first-project sofiasemedo$ git pull 
+Already up to date.
